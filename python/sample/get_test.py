@@ -23,7 +23,7 @@ def hello():
     if name is None: name='nanashi'
     return """
         <h1>mr. {0}, hello</h1>
-    """.format(name)
+    """.format(__main__)
 
 if __name__ == '__main__':
     app.run(debug=True, host='192.168.1.30')
